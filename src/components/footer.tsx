@@ -56,14 +56,6 @@ export default function Footer() {
                       </Link>
                     </li>
                     <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100">
-                      <Link
-                        href={"https://www.facebook.com/tamafawx/"}
-                        target="_blank"
-                      >
-                        Facebook
-                      </Link>
-                    </li>
-                    <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100">
                       <Link href={"https://t.me/tamafawx"} target="_blank">
                         Telegram
                       </Link>
