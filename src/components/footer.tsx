@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="mx-auto border-t border-neutral-200 px-16 py-16">
+    <footer className="mx-auto border-t border-neutral-200 px-8 py-16 md:px-16">
       <div className="flex flex-col">
-        <div className="flex flex-col justify-between gap-16">
+        <div className="flex flex-col justify-between gap-12">
           {/* Footer Content */}
           <div>
             <div className="flex flex-wrap justify-between gap-10">
@@ -92,9 +92,10 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <p className="flex justify-center text-center opacity-60">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            posuere lectus eu ex egestas, sed.
+          <p className="flex justify-center text-center text-sm italic opacity-60">
+            Grow better, find your calling. Be better than I ever was. For now,
+            I am wandering far away. When you&apos;re grown, you will understand
+            :3
           </p>
         </div>
       </div>
