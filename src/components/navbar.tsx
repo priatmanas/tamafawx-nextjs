@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-center border-b border-neutral-200 px-16 py-6 md:justify-between">
+    <nav className="flex items-center justify-center border-b border-neutral-200 px-32 py-6 md:justify-between">
       <div>
         <button className="text-xl font-bold">
           <Link href={"/"}>TamaFawx</Link>
