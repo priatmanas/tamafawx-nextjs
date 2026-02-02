@@ -76,7 +76,7 @@ export default function Footer() {
                         Bluesky
                       </Link>
                     </li>
-                    <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100">
+                    <li className="hidden opacity-60 transition duration-250 ease-in-out hover:opacity-100">
                       <Link href={"/"}>Find more</Link>
                     </li>
                   </ul>
@@ -85,9 +85,12 @@ export default function Footer() {
             </div>
           </div>
           <p className="flex justify-center text-center text-sm italic opacity-60">
-            Grow better, find your calling. Be better than I ever was. For now,
-            I am wandering far away. When you&apos;re grown, you will understand
-            :3
+            &quot;Grow better, find your calling. Be better than I ever was. For
+            now, I am wandering far away. When you&apos;re grown, you will
+            understand :3&quot;
+            {/* &quot;Come on, get on up. We&apos;re wild and we
+            can&apos;t be tamed. And we&apos;re turnin&apos; the floor into. A
+            zoo, ooh, ooh&quot; */}
           </p>
         </div>
       </div>

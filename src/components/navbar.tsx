@@ -19,7 +19,7 @@ export default function Navbar() {
           <li className="px-2.5 py-1 opacity-60 transition duration-250 ease-in-out hover:opacity-100">
             <Link href={"/"}>FAQ</Link>
           </li>
-          <li className="px-2.5 py-1 opacity-60 transition duration-250 ease-in-out hover:opacity-100">
+          <li className="hidden px-2.5 py-1 opacity-60 transition duration-250 ease-in-out hover:opacity-100">
             <Link href={"/"}>Find Me</Link>
           </li>
         </ul>
