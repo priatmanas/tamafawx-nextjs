@@ -39,12 +39,6 @@ export default function Footer() {
                     <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100">
                       <Link href={"/about"}>About</Link>
                     </li>
-                    <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100">
-                      ToS
-                    </li>
-                    <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100">
-                      FAQ
-                    </li>
                   </ul>
                 </section>
                 <section>
