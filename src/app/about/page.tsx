@@ -8,13 +8,15 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <div className="px-8 py-6 md:px-30">
-        <h1 className="text-2xl font-semibold">About Me</h1>
-        <p className="mt-3 text-neutral-600">
-          I&apos;m TamaFawx, people/fluffs always call me Manas. My real name is
-          Fauzan Priatmana. I love Tama as fox, he&apos;s species is a hybrid of
-          Fox, Dog, and Deer. His signatures are the red bowtie and his black
-          hair.
+      <div className="px-8 py-6 md:px-64">
+        <h1 className="text-3xl font-semibold">About Me</h1>
+        <p className="mt-4 text-neutral-600">
+          I&apos;m TamaFawx, people/fluffs always call me Manas. My real name is{" "}
+          <span className="bg-black text-black transition duration-500 ease-in-out hover:bg-transparent">
+            Fauzan Priatmana
+          </span>
+          . I love Tama as fox, he&apos;s species is a hybrid of Fox, Dog, and
+          Deer. His signatures are the red bowtie and his black hair.
         </p>
 
         <figure className="mt-3 flex flex-col items-center gap-4">
