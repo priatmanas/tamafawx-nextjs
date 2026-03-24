@@ -10,16 +10,16 @@ export default function Navbar() {
       </div>
       <div className="hidden md:flex">
         <ul className="flex gap-7 px-10 text-base">
-          <li className="px-2.5 py-1 opacity-60 transition duration-250 ease-in-out hover:opacity-100">
+          <li className="hover:scale125 border-b-2 border-transparent px-2.5 py-1 opacity-60 transition duration-250 ease-in-out hover:-translate-y-1 hover:border-amber-600 hover:opacity-100">
             <Link href={"/"}>Home</Link>
           </li>
-          <li className="px-2.5 py-1 opacity-60 transition duration-250 ease-in-out hover:opacity-100">
-            <Link href={"/about"}>About</Link>
+          <li className="hover:scale125 border-b-2 border-transparent px-2.5 py-1 opacity-60 transition duration-250 ease-in-out hover:-translate-y-1 hover:border-amber-600 hover:opacity-100">
+            <Link href={"/#about"}>About</Link>
           </li>
-          <li className="px-2.5 py-1 opacity-60 transition duration-250 ease-in-out hover:opacity-100">
+          <li className="hover:scale125 border-b-2 border-transparent px-2.5 py-1 opacity-60 transition duration-250 ease-in-out hover:-translate-y-1 hover:border-amber-600 hover:opacity-100">
             <Link href={"/"}>FAQ</Link>
           </li>
-          <li className="hidden px-2.5 py-1 opacity-60 transition duration-250 ease-in-out hover:opacity-100">
+          <li className="hover:scale125 hidden border-b-2 border-transparent px-2.5 py-1 opacity-60 transition duration-250 ease-in-out hover:-translate-y-1 hover:border-amber-600 hover:opacity-100">
             <Link href={"/"}>Find Me</Link>
           </li>
         </ul>
