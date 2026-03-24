@@ -6,3 +6,18 @@ body {
   margin: 0;
   background-color: #fafafa;
 }
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .bg-grid {
+    background-size: 64px 64px;
+    background-image:
+      linear-gradient(to right, rgb(0 0 0 / 0.1) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(0 0 0 / 0.1) 1px, transparent 1px);
+  }
+}
