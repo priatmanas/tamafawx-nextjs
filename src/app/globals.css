@@ -4,7 +4,6 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #fafafa;
 }
 
 @layer base {
@@ -14,10 +13,20 @@ body {
 }
 
 @layer utilities {
-  .bg-grid {
+  .grid-background {
     background-size: 64px 64px;
+    /* Default Light Mode Styles */
     background-image:
-      linear-gradient(to right, rgb(0 0 0 / 0.1) 1px, transparent 1px),
-      linear-gradient(to bottom, rgb(0 0 0 / 0.1) 1px, transparent 1px);
+      linear-gradient(to right, rgb(20 20 20 / 0.15) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(20 20 20 / 0.15) 1px, transparent 1px);
+  }
+
+  /* Automatic Dark Mode detection via Browser/OS settings */
+  @media (prefers-color-scheme: dark) {
+    .grid-background {
+      background-image:
+        linear-gradient(to right, rgb(250 250 250 / 0.1) 1px, transparent 1px),
+        linear-gradient(to bottom, rgb(250 250 250 / 0.1) 1px, transparent 1px);
+    }
   }
 }

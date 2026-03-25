@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="mx-auto border-t border-neutral-200 px-8 py-16 md:px-32">
+    <footer className="mx-auto border-t border-neutral-200 px-8 py-16 md:px-32 dark:border-neutral-800">
       <div className="flex flex-col">
         <div className="flex flex-col justify-between gap-12">
           {/* Footer Content */}
@@ -33,10 +33,10 @@ export default function Footer() {
                 <section>
                   <h2 className="text-base font-semibold">Resources</h2>
                   <ul className="mt-3 flex flex-col gap-2">
-                    <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100">
+                    <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100 dark:opacity-75">
                       <Link href={"/"}>Home</Link>
                     </li>
-                    <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100">
+                    <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100 dark:opacity-75">
                       <Link href={"/about"}>About</Link>
                     </li>
                   </ul>
@@ -44,17 +44,17 @@ export default function Footer() {
                 <section>
                   <h2 className="text-base font-semibold">Find Me</h2>
                   <ul className="mt-3 flex flex-col gap-2 opacity-70">
-                    <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100">
+                    <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100 dark:opacity-75">
                       <Link href={"https://x.com/tamafawx"} target="_blank">
                         X (Formerly Twitter)
                       </Link>
                     </li>
-                    <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100">
+                    <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100 dark:opacity-75">
                       <Link href={"https://t.me/tamafawx"} target="_blank">
                         Telegram
                       </Link>
                     </li>
-                    <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100">
+                    <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100 dark:opacity-75">
                       <Link
                         href={"https://www.instagram.com/tamafawx/"}
                         target="_blank"
@@ -62,7 +62,7 @@ export default function Footer() {
                         Instagram
                       </Link>
                     </li>
-                    <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100">
+                    <li className="opacity-60 transition duration-250 ease-in-out hover:opacity-100 dark:opacity-75">
                       <Link
                         href={"https://bsky.app/profile/tamafawx.bsky.social"}
                         target="_blank"
