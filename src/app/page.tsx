@@ -63,7 +63,7 @@ export default function Home() {
               </div>
               <p className="text-sm md:text-base">
                 Expected to be many bug in this website. <br />
-                Let me know if something broke &lt;/3
+                Let me know if something broke &lt;/3 qwq
               </p>
             </div>
             <div></div>
