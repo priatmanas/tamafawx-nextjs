@@ -19,7 +19,7 @@ export default function Home() {
             alt="TamaFawx Banner"
             width={1080}
             height={1920}
-            className="h-auto w-100 md:w-125"
+            className="h-auto w-100 transition duration-500 ease-in-out hover:translate-2.5 hover:scale-125 hover:rotate-3 md:w-125"
             draggable="false"
           />
         </div>
@@ -81,7 +81,7 @@ export default function Home() {
         id="about"
         className="flex flex-col justify-center gap-5 px-8 py-16 md:px-75 md:py-28"
       >
-        <h1 className="text-2xl font-semibold md:text-3xl">
+        <h1 className="text-xl font-semibold md:text-3xl">
           🦊 A little bit about myself...
         </h1>
         <div className="mb-5 h-1 w-25 rounded-full bg-[#f3b77a]"></div>
