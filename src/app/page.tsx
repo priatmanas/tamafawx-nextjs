@@ -98,13 +98,13 @@ export default function Home() {
           at{" "}
           <span className="relative border-b-2 border-transparent text-amber-600 transition duration-500 ease-in-out hover:border-b-amber-600">
             <Link href={"https://iwima.ac.id/"} target="_blank">
-              Institut Widya Pratama
+              Widya Pratama Institute
             </Link>
           </span>
           . Just an ordinary fox-boy who loves to explore and learn something
           new.
         </p>
-        <p className="text-base text-neutral-600 md:text-lg dark:text-neutral-300">
+        <p className="mb-5 text-base text-neutral-600 md:text-lg dark:text-neutral-300">
           Don&apos;t forget to give me a{" "}
           <span className="text-neutral font-bold dark:text-white">
             &quot;Hi! 👋🏼&quot;
