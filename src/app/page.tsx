@@ -15,7 +15,7 @@ export default function Home() {
       <main className="grid-background flex flex-col-reverse items-center justify-center overflow-hidden px-6 md:min-h-[calc(100vh-80px)] md:flex-row md:gap-18">
         <div draggable="false" className="self-center leading-none md:self-end">
           <Image
-            src={"/tamafawx/test.png"}
+            src={"/tamafawx/tamafawx-mascot.png"}
             alt="TamaFawx Banner"
             width={1080}
             height={1920}
