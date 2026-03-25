@@ -12,14 +12,14 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <main className="grid-background flex flex-col-reverse items-center justify-center overflow-hidden px-6 md:min-h-[calc(100vh-80px)] md:flex-row md:gap-18">
+      <main className="grid-background flex flex-col-reverse items-center justify-center overflow-hidden px-6 md:min-h-[calc(100vh-80px)] md:flex-row md:gap-25">
         <div draggable="false" className="self-center leading-none md:self-end">
           <Image
             src={"/tamafawx/tamafawx-mascot.png"}
             alt="TamaFawx Banner"
             width={1080}
             height={1920}
-            className="h-auto w-100 transition duration-500 ease-in-out hover:translate-2.5 hover:scale-125 hover:rotate-3 md:w-125"
+            className="h-auto w-150 transition duration-500 ease-in-out md:w-160 md:hover:-translate-x-10 md:hover:translate-y-15 md:hover:scale-140 md:hover:rotate-5"
             draggable="false"
           />
         </div>
