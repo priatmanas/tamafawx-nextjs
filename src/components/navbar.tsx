@@ -16,7 +16,7 @@ export default function Navbar() {
           <li className="hover:scale125 border-b-2 border-transparent px-2.5 py-1 text-neutral-600 opacity-60 transition duration-250 ease-in-out hover:-translate-y-1 hover:border-amber-600 hover:opacity-100 dark:text-neutral-200">
             <Link href={"/#about"}>About</Link>
           </li>
-          <li className="hover:scale125 border-b-2 border-transparent px-2.5 py-1 text-neutral-600 opacity-60 transition duration-250 ease-in-out hover:-translate-y-1 hover:border-amber-600 hover:opacity-100 dark:text-neutral-200">
+          <li className="hover:scale125 hidden border-b-2 border-transparent px-2.5 py-1 text-neutral-600 opacity-60 transition duration-250 ease-in-out hover:-translate-y-1 hover:border-amber-600 hover:opacity-100 dark:text-neutral-200">
             <Link href={"/"}>FAQ</Link>
           </li>
           <li className="hover:scale125 hidden border-b-2 border-transparent px-2.5 py-1 text-neutral-600 opacity-60 transition duration-250 ease-in-out hover:-translate-y-1 hover:border-amber-600 hover:opacity-100 dark:text-neutral-200">
